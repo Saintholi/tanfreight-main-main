@@ -252,6 +252,41 @@ const ManagementTeam = () => {
               </div>
             </div>
           </div>
+           <div className="rounded-md bg-purple-2 text-gray-200">
+            <Link href="">
+              <Image
+                src="/managements/EB-3.jpg"
+                width={400}
+                height={400}
+                alt="tan stuff tan logistics"
+              />
+            </Link>
+            <div className="flex items-start justify-between p-3">
+              <div>
+                <h3 className="text-xl font-semibold">No Name</h3>
+                <p>Procurement Lead - Valkem</p>
+              </div>
+              <div className="flex items-center justify-center gap-3 align-baseline">
+                {/* <Link
+                  href="mailto:julienne.opokumensah@tanfreight.com"
+                  className="email"
+                >
+                  <span className="text-4xl">&#9993;</span>
+                </Link> */}
+                <Link href="" className="email">
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt="tan stuff tan logistics"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+                {/* <Link href="" className="email">
+                  <Image src="/ig.png" alt="" width={24} height={24} />
+                </Link> */}
+              </div>
+            </div>
+          </div>
           {/* <div className="rounded-md bg-purple-2 text-gray-200">
             <Link href="">
               <Image
