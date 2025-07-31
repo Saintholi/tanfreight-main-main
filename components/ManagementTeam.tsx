@@ -228,6 +228,39 @@ const ManagementTeam = () => {
             />
             <div className="flex items-start justify-between p-3">
               <div>
+                <h3 className="text-xl font-semibold">Raphael Nyarko</h3>
+                <p>Founding Partner | Chief Operating Officer</p>
+              </div>
+              <div className="flex items-center justify-center gap-3 align-baseline">
+                {/* <Link
+                  href="mailto:raphael.nyarkoh@tanfreight.com"
+                  className="email"
+                >
+                  <span className="text-4xl">&#9993;</span>
+                </Link> */}
+                <Link href="https://www.linkedin.com/in/raphael-nyarkoh-0704522b5?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEu04tQB7kzKpw3EJ-4esSfYpij1sWXfu0c&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt="tan stuff tan logistics"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+                {/* <Link href="" className="email">
+                  <Image src="/ig.png" alt="" width={24} height={24} />
+                </Link> */}
+              </div>
+            </div>
+          </div>
+          <div className="rounded-md bg-purple-2 text-gray-200">
+            <Image
+              src="/managements/EB-2.jpg"
+              width={400}
+              height={400}
+              alt="tan stuff tan logistics"
+            />
+            <div className="flex items-start justify-between p-3">
+              <div>
                 <h3 className="text-xl font-semibold">Esther Ajaaka Bampoh</h3>
                 <p>Chief Growth Officer</p>
               </div>
