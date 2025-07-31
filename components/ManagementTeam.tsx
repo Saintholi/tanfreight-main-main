@@ -219,6 +219,41 @@ const ManagementTeam = () => {
               </div>
             </div>
           </div>
+           <div className="rounded-md bg-purple-2 text-gray-200">
+            <Link href="">
+              <Image
+                src="/managements/EB-2.JPG"
+                width={400}
+                height={400}
+                alt="tan stuff tan logistics"
+              />
+            </Link>
+            <div className="flex items-start justify-between p-3">
+              <div>
+                <h3 className="text-xl font-semibold">Esther Ajaaka Bampoh</h3>
+                <p>Director of Marketing & Bus. Development</p>
+              </div>
+              <div className="flex items-center justify-center gap-3 align-baseline">
+                {/* <Link
+                  href="mailto:esther.bampoh@tanfreight.com"
+                  className="email"
+                >
+                  <span className="text-4xl">&#9993;</span>
+                </Link> */}
+                <Link href="https://www.linkedin.com/in/esther-nanaama-bampoh-53a2331a1?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC8ysj4BR37_DvcCFnwICXifPV7Gci4Q-MM&lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BZsrooM54R%2B2Jc6bejOV0Mw%3D%3D">
+                  <Image
+                    src="/managements/linkedin.png"
+                    alt="tan stuff tan logistics"
+                    width={38}
+                    height={38}
+                  />
+                </Link>
+                {/* <Link href="">
+                  <Image src="/ig.png" alt="" width={30} height={30} />
+                </Link> */}
+              </div>
+            </div>
+          </div>
           <div className="rounded-md bg-purple-2 text-gray-200">
             <Image
               src="/managements/EB-3.jpg"
