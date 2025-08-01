@@ -221,7 +221,7 @@ const ManagementTeam = () => {
           </div>
           <div className="rounded-md bg-purple-2 text-gray-200">
             <Image
-              src="/managements/EB-2.jpg"
+              src="/managements/EB-3.jpg"
               width={400}
               height={400}
               alt="tan stuff tan logistics"
